@@ -1,0 +1,165 @@
+/********** RESET CSS *********/
+
+/* Remise à zéro des marges et des rembourrages */
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, figure, figcaption, blockquote, dl, dd {
+    margin: 0;
+    padding: 0;
+}
+
+/* Remise à zéro de la taille de police */
+body {
+    font-size: 16px;
+}
+
+/* Remise à zéro des styles de liste */
+ul, ol {
+    list-style: none;
+}
+
+/* Remise à zéro des styles de lien */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Remise à zéro des styles de tableau */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Remise à zéro des styles de formulaire */
+button, input, select, textarea {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none;
+    font: inherit;
+    color: inherit;
+    outline: none;
+    appearance: none;
+}
+
+
+
+/********** VARIABLE **********/
+
+:root{
+    --color-primary: #1D1D1D;
+    --color-secondary: #FEFEFE;
+    --color-tertiary: #474DFF;
+
+}
+
+/********** GLOBAL **********/
+
+body {
+    background: #1D1D1D;
+    color: #FEFEFE;
+    font-family: 'Inter', sans-serif;
+
+}	
+
+/********** NAV **********/
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap : 17vw;
+}
+
+
+
+/******* HEADER *********/
+
+.header {
+    display: flex;
+    padding: 30px;
+}
+
+    /********** HEADER LEFT **********/
+.header-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 3.5rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.header-left-container h3 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+    color: var(--color-tertiary);
+}
+.header-left-container p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+    /********** HEADER RIGHT **********/
+
+#modem{
+    height : 60vh ;
+}
+
+
+/********** INFO **********/
+
+.infos {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.infos-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.infos-right img {
+    height: 5vh;
+    display: flex;
+    flex-direction: column;
+}
+
+    /********** BTN-CONTAINER **********/
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.btn-container button {
+    background: var(--color-tertiary);
+    color: var(--color-secondary);
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+
+
+/*********** IMG-CONTAINER **********/
+.img-container {
+    display: flex;
+    justify-content: center;
+    padding: 60px 0 0;
+}
+.img-container img{
+    height: 6.5vh;
+    margin: 10px 70px;
+}
