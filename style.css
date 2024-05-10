@@ -154,12 +154,12 @@ h1 {
 
 
 /*********** IMG-CONTAINER **********/
+.img-container img{
+    height: 6.5vh;
+    margin: 10px 70px;
+}
 .img-container {
     display: flex;
     justify-content: center;
     padding: 60px 0 0;
-}
-.img-container img{
-    height: 6.5vh;
-    margin: 10px 70px;
 }
